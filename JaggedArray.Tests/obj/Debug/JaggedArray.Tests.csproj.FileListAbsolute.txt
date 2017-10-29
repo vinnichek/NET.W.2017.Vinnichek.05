@@ -1,0 +1,10 @@
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Tests.dll
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Tests.pdb
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Logic.dll
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Logic.pdb
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.dll
+C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.pdb

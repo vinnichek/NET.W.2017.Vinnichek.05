@@ -1,0 +1,2 @@
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Tests\obj\Debug\Polynomial.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Tests\obj\Debug\Polynomial.Tests.csproj.CoreCompileInputs.cache

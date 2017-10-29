@@ -1,0 +1,6 @@
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Logic\bin\Debug\Polynomial.Logic.dll
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Logic\bin\Debug\Polynomial.Logic.pdb
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Logic\obj\Debug\Polynomial.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Logic\obj\Debug\Polynomial.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Logic\obj\Debug\Polynomial.Logic.dll
+C:\Users\Ira Vinnichek\source\repos\Task5\Polynomial.Logic\obj\Debug\Polynomial.Logic.pdb
