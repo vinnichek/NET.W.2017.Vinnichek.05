@@ -175,11 +175,11 @@ namespace Polynomial.Logic
         }
         #endregion
 
-        private static void CheckPolynomials(Polynomial firstPolynom, Polynomial secondPolynom)
+        private static void CheckPolynomials(Polynomial firstPolynomial, Polynomial secondPolynomial)
         {
-            if (ReferenceEquals(firstPolynom, null) && ReferenceEquals(secondPolynom, null)) throw new ArgumentNullException($"{ nameof(firstPolynom) } and { nameof(secondPolynom) } are null.");
-            if (ReferenceEquals(firstPolynom, null)) throw new ArgumentNullException($"{ nameof(firstPolynom) } is null.");
-            if (ReferenceEquals(secondPolynom, null)) throw new ArgumentNullException($"{ nameof(secondPolynom) } is null.");
+            if (ReferenceEquals(firstPolynomial, null) && ReferenceEquals(secondPolynomial, null)) throw new ArgumentNullException($"{ nameof(firstPolynomial) } and { nameof(secondPolynomial) } are null.");
+            if (ReferenceEquals(firstPolynomial, null)) throw new ArgumentNullException($"{ nameof(firstPolynomial) } is null.");
+            if (ReferenceEquals(secondPolynomial, null)) throw new ArgumentNullException($"{ nameof(secondPolynomial) } is null.");
         }
 
         public object Clone()
