@@ -8,15 +8,15 @@ namespace Polynomial.Logic
 {
     public class Polynomial : ICloneable
     {
-        #region Public Fields
+        #region Private Fields
+        private readonly double[] coefficientArray;
+        #endregion
+        
+        #region Properties
         /// <summary>
         /// Return degree of Polynomial.
         /// </summary>
         public int Degree { get { return coefficientArray.Length; } }
-        #endregion
-
-        #region Private Fields
-        private readonly double[] coefficientArray;
         #endregion
 
         #region Ctors
