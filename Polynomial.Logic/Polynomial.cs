@@ -8,15 +8,15 @@ namespace Polynomial.Logic
 {
     public class Polynomial : ICloneable
     {
-        #region Public Fields
+        #region Private Fields
+        private readonly double[] coefficientArray;
+        #endregion
+
+        #region Properties
         /// <summary>
         /// Return degree of Polynomial.
         /// </summary>
         public int Degree { get { return coefficientArray.Length; } }
-        #endregion
-
-        #region Private Fields
-        private readonly double[] coefficientArray;
         #endregion
 
         #region Ctors
@@ -175,16 +175,44 @@ namespace Polynomial.Logic
         }
         #endregion
 
+        #region Add, Substract, Multiply
+        /// <summary>
+        /// Find sum of two polynomials.
+        /// </summary>
+        /// <param name="firstPolynomial">First polynomial.</param>
+        /// <param name="secondPolynomial">Second polynomial.</param>
+        /// <returns>Sum of two polynomials.</returns>
+        public static Polynomial Add(Polynomial firstPolynomial, Polynomial secondPolynomial) => firstPolynomial + secondPolynomial;
+
+        /// <summary>
+        /// Find difference of two polynomials.
+        /// </summary>
+        /// <param name="firstPolynomial">First polynomial.</param>
+        /// <param name="secondPolynomial">Second polynomial.</param>
+        /// <returns>Difference of two polynomials.</returns>
+        public static Polynomial Subtract(Polynomial firstPolynomial, Polynomial secondPolynomial) => firstPolynomial - secondPolynomial;
+
+        /// <summary>
+        /// Multiplies two polynomials.
+        /// </summary>
+        /// <param name="firstPolynomial">First polynomial.</param>
+        /// <param name="secondPolynomial">Second polynomial.</param>
+        /// <returns>Product of two polynomials.</returns>
+        public static Polynomial Multiply(Polynomial firstPolynomial, Polynomial secondPolynomial) => firstPolynomial * secondPolynomial;
+        #endregion
+
+        public object Clone()
+        {
+            return new Polynomial(coefficientArray);
+        }
+        #endregion
+
+        #region Private Methods
         private static void CheckPolynomials(Polynomial firstPolynomial, Polynomial secondPolynomial)
         {
             if (ReferenceEquals(firstPolynomial, null) && ReferenceEquals(secondPolynomial, null)) throw new ArgumentNullException($"{ nameof(firstPolynomial) } and { nameof(secondPolynomial) } are null.");
             if (ReferenceEquals(firstPolynomial, null)) throw new ArgumentNullException($"{ nameof(firstPolynomial) } is null.");
             if (ReferenceEquals(secondPolynomial, null)) throw new ArgumentNullException($"{ nameof(secondPolynomial) } is null.");
-        }
-
-        public object Clone()
-        {
-            return new Polynomial(coefficientArray);
         }
         #endregion
     }
