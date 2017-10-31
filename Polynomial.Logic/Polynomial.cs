@@ -11,7 +11,11 @@ namespace Polynomial.Logic
         #region Private Fields
         private readonly double[] coefficientArray;
         #endregion
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> origin/master
         #region Properties
         /// <summary>
         /// Return degree of Polynomial.
