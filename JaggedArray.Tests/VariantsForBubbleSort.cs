@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using JaggedArray.Logic;
 
-namespace JaggedArray.Logic
+namespace JaggedArray.Tests
 {
-    public class VariantsForBubbleSort
+    class VariantsForBubbleSort
     {
         /// <summary>
         /// In the order of increasing sums of elements of rows in matrix.
@@ -141,3 +142,4 @@ namespace JaggedArray.Logic
         }
     }
 }
+

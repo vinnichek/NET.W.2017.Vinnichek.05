@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using System.Collections;
 using static JaggedArray.Logic.BubbleSortingForJaggedArray;
+using static JaggedArray.Tests.VariantsForBubbleSort;
 
 namespace JaggedArray.Tests
 {
@@ -17,7 +18,7 @@ namespace JaggedArray.Tests
         {
             int[][] array = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
             int[][] expected = { new int[] { 5 }, new int[] { 7 }, new int[] { 1, 3, 8 } };
-            ArrayHelper.BubbleSorting(array, new ComparerSumByInc());
+            BubbleSorting(array, new ComparerSumByInc());
             Assert.AreEqual(array, expected);
         }
 
@@ -26,7 +27,7 @@ namespace JaggedArray.Tests
         {
             int[][] array = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
             int[][] expected = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
-            ArrayHelper.BubbleSorting(array, new ComparerSumByDec());
+            BubbleSorting(array, new ComparerSumByDec());
             Assert.AreEqual(array, expected);
         }
 
@@ -35,7 +36,7 @@ namespace JaggedArray.Tests
         {
             int[][] array = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
             int[][] expected = { new int[] { 5 }, new int[] { 7 }, new int[] { 1, 3, 8 } };
-            ArrayHelper.BubbleSorting(array, new ComparerMaxByInc());
+            BubbleSorting(array, new ComparerMaxByInc());
             Assert.AreEqual(array, expected);
         }
 
@@ -44,7 +45,7 @@ namespace JaggedArray.Tests
         {
             int[][] array = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
             int[][] expected = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
-            ArrayHelper.BubbleSorting(array, new ComparerMaxByDec());
+            BubbleSorting(array, new ComparerMaxByDec());
             Assert.AreEqual(array, expected);
         }
 
@@ -53,7 +54,7 @@ namespace JaggedArray.Tests
         {
             int[][] array = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
             int[][] expected = { new int[] { 1, 3, 8 }, new int[] { 5 }, new int[] { 7 } };
-            ArrayHelper.BubbleSorting(array, new ComparerMinByInc());
+            BubbleSorting(array, new ComparerMinByInc());
             Assert.AreEqual(array, expected);
         }
 
@@ -62,7 +63,7 @@ namespace JaggedArray.Tests
         {
             int[][] array = { new int[] { 1, 3, 8 }, new int[] { 7 }, new int[] { 5 } };
             int[][] expected = { new int[] { 7 }, new int[] { 5 }, new int[] { 1, 3, 8 } };
-            ArrayHelper.BubbleSorting(array, new ComparerMinByDec());
+            BubbleSorting(array, new ComparerMinByDec());
             Assert.AreEqual(array, expected);
         }
 
@@ -70,14 +71,14 @@ namespace JaggedArray.Tests
         public void ComparerMinByDec_NullJaggedArray_ThrowArgumentNullException()
         {
             int[][] arr = null;
-            Assert.Throws<ArgumentNullException>(() => ArrayHelper.BubbleSorting(arr, new ComparerMinByDec()));
+            Assert.Throws<ArgumentNullException>(() => BubbleSorting(arr, new ComparerMinByDec()));
         }
 
         [Test]
         public void ComparerMinByDec_EmptyJaggedArray_ThrowArgumentNullException()
         {
             int[][] arr = new int[][] { };
-            Assert.Throws<ArgumentException>(() => ArrayHelper.BubbleSorting(arr, new ComparerMinByDec()));
+            Assert.Throws<ArgumentException>(() => BubbleSorting(arr, new ComparerMinByDec()));
         }
     }
 }

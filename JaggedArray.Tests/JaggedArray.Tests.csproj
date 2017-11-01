@@ -45,15 +45,16 @@
   <ItemGroup>
     <Compile Include="TestsForJaggedArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VariantsForBubbleSort.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JaggedArray.Logic\JaggedArray.Logic.csproj">
       <Project>{89512e5a-be15-42de-8b3f-396923436ec8}</Project>
       <Name>JaggedArray.Logic</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
