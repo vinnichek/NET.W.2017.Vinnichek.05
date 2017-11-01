@@ -64,22 +64,18 @@ namespace Polynomial.Logic
             if (firstPolynomial.Degree == 0) return new Polynomial(secondPolynomial.coefficientArray);
             if (secondPolynomial.Degree == 0) return new Polynomial(firstPolynomial.coefficientArray);
             double[] arr;
-            if (firstPolynomial.Degree > secondPolynomial.Degree)
-            { 
-                arr = new double[firstPolynomial.Degree];
-                for (int i = 0; i < firstPolynomial.Degree; i++)
-                    arr[i] = firstPolynomial.coefficientArray[i];
-                for (int i = 0; i < secondPolynomial.Degree; i++)
-                    arr[i] += secondPolynomial.coefficientArray[i];
-            }
-            else
+            Polynomial helpPolynomial;
+            if (firstPolynomial.Degree < secondPolynomial.Degree)
             {
-                arr = new double[secondPolynomial.Degree];
-                for (int i = 0; i < secondPolynomial.Degree; i++)
-                    arr[i] = secondPolynomial.coefficientArray[i];
-                for (int i = 0; i < firstPolynomial.Degree; i++)
-                    arr[i] += firstPolynomial.coefficientArray[i];
+                helpPolynomial = firstPolynomial;
+                firstPolynomial = secondPolynomial;
+                secondPolynomial = helpPolynomial;
             }
+            arr = new double[firstPolynomial.Degree];
+            for (int i = 0; i < firstPolynomial.Degree; i++)
+                arr[i] = firstPolynomial.coefficientArray[i];
+            for (int i = 0; i < secondPolynomial.Degree; i++)
+                arr[i] += secondPolynomial.coefficientArray[i];
             return new Polynomial(arr);
         }
 
@@ -95,22 +91,19 @@ namespace Polynomial.Logic
             if (firstPolynomial.Degree == 0) return new Polynomial(secondPolynomial.coefficientArray);
             if (secondPolynomial.Degree == 0) return new Polynomial(firstPolynomial.coefficientArray);
             double[] arr;
-            if (firstPolynomial.Degree > secondPolynomial.Degree)
+            Polynomial helpPolynomial;
+            if (firstPolynomial.Degree < secondPolynomial.Degree)
             {
-                arr = new double[firstPolynomial.Degree];
-                for (int i = 0; i < firstPolynomial.Degree; i++)
-                    arr[i] = firstPolynomial.coefficientArray[i];
-                for (int i = 0; i < secondPolynomial.Degree; i++)
-                    arr[i] -= secondPolynomial.coefficientArray[i];
+                helpPolynomial = firstPolynomial;
+                firstPolynomial = secondPolynomial;
+                secondPolynomial = helpPolynomial;
             }
-            else
-            {
-                arr = new double[secondPolynomial.Degree];
-                for (int i = 0; i < secondPolynomial.Degree; i++)
-                    arr[i] = -secondPolynomial.coefficientArray[i];
-                for (int i = 0; i < firstPolynomial.Degree; i++)
-                    arr[i] += firstPolynomial.coefficientArray[i];
-            }
+            arr = new double[firstPolynomial.Degree];
+            for (int i = 0; i < firstPolynomial.Degree; i++)
+                arr[i] = firstPolynomial.coefficientArray[i];
+            for (int i = 0; i < secondPolynomial.Degree; i++)
+                arr[i] -= secondPolynomial.coefficientArray[i];
+
             return new Polynomial(arr);
         }
 
