@@ -1,8 +1,6 @@
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\bin\Debug\JaggedArray.Logic.dll
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\bin\Debug\JaggedArray.Logic.pdb
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\obj\Debug\JaggedArray.Logic.csprojResolveAssemblyReference.cache
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\obj\Debug\JaggedArray.Logic.csproj.CoreCompileInputs.cache
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\obj\Debug\JaggedArray.Logic.dll
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\obj\Debug\JaggedArray.Logic.pdb
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\bin\Debug\nunit.framework.dll
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Logic\bin\Debug\nunit.framework.xml
+/Users/vinnichek/Projects/Task10/JaggedArray.Logic/obj/Debug/JaggedArray.Logic.csprojResolveAssemblyReference.cache
+/Users/vinnichek/Projects/Task10/JaggedArray.Logic/obj/Debug/JaggedArray.Logic.csproj.CoreCompileInputs.cache
+/Users/vinnichek/Projects/Task10/JaggedArray.Logic/bin/Debug/JaggedArray.Logic.dll
+/Users/vinnichek/Projects/Task10/JaggedArray.Logic/bin/Debug/JaggedArray.Logic.pdb
+/Users/vinnichek/Projects/Task10/JaggedArray.Logic/obj/Debug/JaggedArray.Logic.dll
+/Users/vinnichek/Projects/Task10/JaggedArray.Logic/obj/Debug/JaggedArray.Logic.pdb

@@ -1,10 +1,10 @@
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.csprojResolveAssemblyReference.cache
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.csproj.CoreCompileInputs.cache
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Tests.dll
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Tests.pdb
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Logic.dll
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\nunit.framework.dll
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\JaggedArray.Logic.pdb
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\bin\Debug\nunit.framework.xml
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.dll
-C:\Users\Ira Vinnichek\source\repos\Task5\JaggedArray.Tests\obj\Debug\JaggedArray.Tests.pdb
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/obj/Debug/JaggedArray.Tests.csprojResolveAssemblyReference.cache
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/obj/Debug/JaggedArray.Tests.csproj.CoreCompileInputs.cache
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/bin/Debug/JaggedArray.Tests.dll
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/bin/Debug/JaggedArray.Tests.pdb
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/bin/Debug/JaggedArray.Logic.dll
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/bin/Debug/nunit.framework.dll
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/bin/Debug/JaggedArray.Logic.pdb
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/bin/Debug/nunit.framework.xml
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/obj/Debug/JaggedArray.Tests.dll
+/Users/vinnichek/Projects/Task10/JaggedArray.Tests/obj/Debug/JaggedArray.Tests.pdb
